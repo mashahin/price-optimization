@@ -33,7 +33,7 @@ def optimize_price(df, price_range, cost):
         f"Maximum Revenue {round(max_value['Revenue'].values[0])} at Price {round(max_value['Price'].values[0])}")
 
     fig, axs = plt.subplots(1, 2, figsize=(8, 5))
-    fig.suptitle("Price Optimization", fontsize=16, fontweight='bold')
+    fig.suptitle("Price Optimization", fontsize=16)
 
     sns.scatterplot(ax=axs[0], data=df, x='Price', y='Quantity')
     axs[0].plot(price, quantity, c='black', linestyle='dashed')
