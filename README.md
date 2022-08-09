@@ -10,4 +10,4 @@ Run the following command in the "price-optimization" directory
 
 # ![plot](./assets/Price_optimization.png)
 
-<img src="https://github.com/mashahin/price-optimization/tree/main/assets/Price-optimization.png" width=50% height=50%>
+<img src="https://github.com/mashahin/price-optimization/tree/main/assets/Price-optimization.png" width=25% height=25%>
