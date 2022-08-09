@@ -7,6 +7,6 @@ Computes optimal price maximizing revenue based on demand
 > python app.py
 >
 
-![plot](./assets/Price-optimization.png)
+![plot](./assets/Price_optimization.png)
 
 #<img src="https://github.com/mashahin/hypertuning-interactive/blob/master/assets/Price-optimization.png" width=50% height=50%>
