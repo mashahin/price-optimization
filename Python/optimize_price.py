@@ -46,10 +46,13 @@ def optimize_price(df, price_range, cost):
     axs[1].axhline(y[np.argmax(y)], c='red', linestyle='dotted')
     axs[1].set_title("Maximizing Revenue", fontsize=12)
     axs[1].annotate('Max Revenue '+str(round(max_value['Revenue'].values[0]))
-                    + '\nat Price '+str(round(max_value['Price'].values[0])),
+                    + '\nat Price ' +
+                    str(round(max_value['Price'].values[0])),
                     xy=(x[np.argmax(y)], y[np.argmax(y)]),
-                    xytext=(x[np.argmax(y)-15], y[np.argmax(y)-15]),
-                    arrowprops=dict(facecolor='red', shrink=0.05)
+                    xytext=(x[np.argmax(y)-15], y[np.argmax(y)-20]),
+                    # arrowprops=dict(facecolor='red', shrink=0.05)
+                    arrowprops=dict(arrowstyle="simple",
+                                    fc="0.3", ec="none")  # connectionstyle="arc3,rad=0.2"
                     )
 
     plt.tight_layout()
