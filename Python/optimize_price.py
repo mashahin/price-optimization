@@ -51,7 +51,7 @@ def optimize_price(df, price_range, cost):
                     xy=(x[np.argmax(y)], y[np.argmax(y)]),
                     xytext=(x[np.argmax(y)-15], y[np.argmax(y)-20]),
                     # arrowprops=dict(facecolor='red', shrink=0.05)
-                    arrowprops=dict(arrowstyle="simple",
+                    arrowprops=dict(arrowstyle="fancy",
                                     fc="0.3", ec="none")  # connectionstyle="arc3,rad=0.2"
                     )
 
