@@ -4,9 +4,6 @@ numpy
 statsmodels
 matplotlib
 seaborn
-plotly
-dash
-dash_bootstrap_components
-dash_daq
+pymc3
 
 
